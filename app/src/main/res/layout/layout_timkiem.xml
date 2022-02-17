@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/aaa"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hướng dẫn sử dụng App"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#69076C"
+         android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="#2226FF"
+        android:text="- App có 2 cách để quản lý bãi đỗ xe thông minh hiệu quả nhằm đáp ứng nhu cầu quản lý an toàn hiệu quả cao"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="+  Cách 1: Xe vào có Mã QRcode đã có tạo sẳn, tiến hành quét mã QRcode và cho xe vào"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="+  Cách 2: Người quản lý tiến hành chụp hình ảnh cung cấp thông tin cho app như khu vực biển số để tạo mã QRcode và lưu dữ liệu"
+        android:layout_marginBottom="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I. Xe vào theo vé mã QR code có sẳn:"
+            android:textSize="17dp"
+            android:textColor="#8A0665"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="- Click vào ''☰'' để hiển thị menu"
+            android:layout_marginBottom="10dp"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/chontheove"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+           android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="- Sau khi chọn ''Xe vào chọn theo vé'' màn hình check mã QR code hiển thị"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="- Tiến hành quét mã. Mã quét thành công sẽ hiện Tên mã và thời gian vào"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="- Nếu muốn tiếp tục quét tiếp thì click vào phần vùng chọn màu xanh để thực hiện mới."
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/abca"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="II. Xe Ra theo vé mã QR code có sẳn:"
+            android:textSize="17dp"
+            android:textColor="#8A0665"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="- Tương tự như ở phần xe vào Click vào ''☰'' để hiển thị menu và chọn xe ra theo vé"
+            android:layout_marginBottom="10dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/theoxera"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="- Tiến hành quét mã. Mã được nhận dạng trùng với mã xe vào sẽ hiển thị thông tin: mã xe,thời gian vào, thời gian ra, cước phí"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="- Nếu muốn tiếp tục quét tiếp thì click vào phần vùng chọn màu xanh để thực hiện mới."
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/xerathve"
+            />
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="III. Xe vào theo thông tin cung cấp:"
+           android:textSize="17dp"
+           android:textColor="#8A0665"
+           android:textStyle="bold"
+           android:layout_marginLeft="20dp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:paddingRight="20dp"
+           android:paddingLeft="20dp"
+           android:text="- Tương tự như ở phần xe vào Click vào ''☰'' để hiển thị menu và chọn xe ra theo vé"
+           android:layout_marginBottom="10dp"
+           />
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/xevaotn"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:paddingRight="20dp"
+           android:paddingLeft="20dp"
+           android:text="- Giao diện xe vào"
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           android:layout_marginLeft="10dp"
+           android:paddingRight="20dp"
+           android:paddingLeft="20dp"
+           android:text="- Người quản lý nhấn vào ảnh camera để chụp ảnh người gửi xe, nhập khu vực để "
+
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           android:layout_marginLeft="10dp"
+           android:paddingRight="20dp"
+           android:paddingLeft="20dp"
+           android:textColor="#E8070F"
+           android:text="Lưu ý: Quản lý cần nhập đúng biển số xe để tạo mã QRcode chính xác thông tin để khi xe ra dễ giải quyết sau đó lưu dữ liệu, chờ vài giây đễ hệ thống lưu thông tin, sau tin thông báo thành công thì hoàn thành"
+
+           />
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/xevaotn1"
+           />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="IV. Xe Ra theo thông tin cung cấp:"
+           android:textSize="17dp"
+           android:textColor="#8A0665"
+           android:textStyle="bold"
+           android:layout_marginLeft="20dp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:paddingRight="20dp"
+           android:paddingLeft="20dp"
+           android:text="- Giao diện quét mã QRcode xe ra của cách 2 không theo vé có sẳn"
+
+           />
+
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/xeratn"
+           />
+       <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="10dp"
+       android:paddingRight="20dp"
+       android:paddingLeft="20dp"
+       android:text="- tiến hành click vào button ''mời quét mã QRcode'' để tiến hành check mã QR nếu mã đúng hợp lệ với đầu vào thì hệ thống sẽ trả về dữ liệu thông tin như ảnh,khu vực,biển số,thời gian vào, thời gian ra, cước phí"
+
+       />
+
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/xeratn1"
+           />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V. Danh Sách xe trong bãi"
+            android:textSize="17dp"
+            android:textColor="#8A0665"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="- Xem danh sách xe đang có trong bãi"
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dsxe"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="- có thể xem thông tin xe, tìm kiếm xe theo biển số, tìm kiếm xe theo khu vực để, có thể click vào xem thông tin"
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dsxeanh"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="- sau khi xem thông tin có thể quay lại hoặc tiến hành cho xe ra nếu xe đã bị mất mã QR code"
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dsxe1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="- sau khi cho xe ra thì thông tin như thời gian vào và ra,cước phí của xe sẽ hiện lên và nhấn vào button ''xong'' để kết thúc hoàn tất"
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dsxe2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VI. Cài đặt"
+            android:textSize="17dp"
+            android:textColor="#8A0665"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="- Ở phần cài đặt này bạn có thể điều chỉnh app "
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/caitdat"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="- Click vào phí gửi xe sẽ hiện form để điều chỉnh giá tiền"
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/phigui"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="- Click vào cài đặt lại để xóa toàn bộ dữ liệu có trong app quay về trạng thái ban đầu"
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/reset"
+            android:layout_marginBottom="30dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

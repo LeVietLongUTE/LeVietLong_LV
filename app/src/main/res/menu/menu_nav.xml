@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/chontheove"
+            android:icon="@drawable/ic_baseline_xechonves"
+            android:id="@+id/Nav_chontheove"></item>
+        <item android:title="@string/xeratheove"
+            android:icon="@drawable/ic_baseline_xechonves"
+            android:id="@+id/Nav_xeratheove"></item>
+        <item android:title="@string/xevao"
+            android:icon="@drawable/ic_baseline_xevao"
+            android:id="@+id/Nav_xevao"></item>
+        <item android:title="@string/xera"
+            android:icon="@drawable/ic_baseline_xera"
+            android:id="@+id/Nav_xera"></item>
+    </group>
+
+    <item   android:title="Chức Năng">
+        <menu>
+
+            <item android:title="Danh Sách Xe trong bãi"
+                android:icon="@drawable/ic_baseline_list_alt_24"
+                android:id="@+id/Nav_dsxe"></item>
+            <item android:title="Thống Kê"
+                android:icon="@drawable/ic_baseline_auto_graph_24"
+                android:id="@+id/Nav_thongke"></item>
+            <item android:title="Hướng dẫn sử dụng"
+                android:icon="@drawable/ic_baseline_question_mark_24"
+                android:id="@+id/Nav_timkiem"></item>
+            <item android:title="Cài Đặt"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:id="@+id/Nav_caidat"></item>
+        </menu>
+    </item>
+</menu>

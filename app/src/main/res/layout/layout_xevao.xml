@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Chụp ảnh xe vào:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_baseline_photo_camera_24" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/anhnguoigui"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_themhinhanh" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:textStyle="italic"
+            android:text="khu vực:"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/text_khuvuc"
+            android:layout_width="200dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginLeft="15dp"
+            android:hint="nhập khu vực!"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:text="Biển số:"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/text_bienso"
+            android:layout_width="200dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginLeft="18dp"
+            android:hint="nhập biển số!"
+
+            android:lines="1"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:inputType="textCapCharacters"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_taoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:backgroundTint="#00acc1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Tạo mã QR code" />
+
+    <ImageView
+        android:id="@+id/vungmavach"
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/maqr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Mã QR code của bạn!!!" />
+
+
+        <Button
+            android:id="@+id/btnxevao"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radiusbutton"
+            android:text="xe vào"
+            android:textColor="#7F64DF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
